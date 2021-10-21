@@ -9,7 +9,7 @@ html, body, #home{
 body {
 background: url(../imagens/capa.png),
 url(../imagens/ruido.png),
-linear-gradient(50deg, #ff4169,#7c26f8);
+linear-gradient(50deg, #00ff51, #0800ff);
 background-attachment: fixed;
 font-family:
 }
@@ -56,11 +56,11 @@ nav.navbar-transparent {
 }
 
 .btn-purple{
-    background: #7c25f8;
+    background: #0700ca;
 }
 
 .btn-purple:hover{
-    background: #6207e3;
+    background: #0ab2b5;
     color: white;
 } 
 
@@ -72,6 +72,23 @@ nav.navbar-transparent {
     background-color:white;
     color:black;
 }
+
+/* Content structure */
+
+#service{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#service h2, h3{
+    color: #4000ca;
+}
+
+.albuns{
+   padding: 10px 0; 
+}
+
 /* Text */
 
 h1{
@@ -80,6 +97,20 @@ h1{
     margin-bottom: 50px;
     color: white;
 }
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
 
 /* Extra-Small devices */
 @media (max-width: 575.98px){
@@ -90,10 +121,17 @@ h1{
     .btn-custom{
         margin:10px 15px;
     }
+
+    .one{
+        max-width: 40%;
+        border-radius: 50%;
+        margin-left: 140px;
+    }
 }
 
-/* Small devices */
+/* Small devices PROBLEMS HERE*/
 @media (min-width: 576px) and (max-width:767,98px){
+    
     h1{
         font-size:3em;
     }
@@ -101,6 +139,8 @@ h1{
     .btn-custom{
         margin:10px 15px;
     }
+
+
 }
 
 /* Medium devices */
@@ -112,6 +152,7 @@ h1{
     .btn-custom{
         margin:10px 15px;
     }
+
 }
 
 /* Large devices */
