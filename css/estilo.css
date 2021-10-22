@@ -11,7 +11,7 @@ background: url(../imagens/capa.png),
 url(../imagens/ruido.png),
 linear-gradient(50deg, #00ff51, #0800ff);
 background-attachment: fixed;
-font-family:
+font-family: 'Poppins', sans-serif;
 }
 
 /* NAV */
@@ -129,8 +129,8 @@ h3{
     }
 }
 
-/* Small devices PROBLEMS HERE*/
-@media (min-width: 576px) and (max-width:767,98px){
+/* Small devices */
+@media only screen and (max-width:767px){
     
     h1{
         font-size:3em;
@@ -139,8 +139,11 @@ h3{
     .btn-custom{
         margin:10px 15px;
     }
-
-
+    .one{
+    
+        border-radius: 50%;
+        margin-left: 140px;
+    }
 }
 
 /* Medium devices */
