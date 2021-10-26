@@ -3,6 +3,8 @@
 
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
+    
 }
 
 
@@ -75,6 +77,7 @@ nav.navbar-transparent {
 
 /* Content structure */
 
+
 #service{
     background: white;
     padding-top: 20px;
@@ -85,8 +88,33 @@ nav.navbar-transparent {
     color: #4000ca;
 }
 
+#resources h3, h2{
+    color: #00ff51;
+}
+
+#resources {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .albuns{
    padding: 10px 0; 
+}
+
+.rotate{
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+
+}
+
+/* Footer */
+
+footer{
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
 }
 
 /* Text */
