@@ -203,7 +203,7 @@ h3{
 /* Medium devices */
 @media (min-width: 768px) and (max-width:991,98px){
     h1{
-        font-size:4em;
+        font-size:5em;
     }
 
     .btn-custom{
